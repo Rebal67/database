@@ -1,0 +1,161 @@
+ .table{
+  margin-left:auto;
+  margin-right:auto;
+  display: table;
+} 
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+h2{
+  text-align: center;
+}
+.tab{
+  float: left;
+  text-decoration: none;
+  color:white;
+  background-color: darkblue;
+  font-size: 2rem;
+  padding:0.5rem;
+  padding-right:0.1rem;
+  padding-left:0.8rem;
+  border-radius: 10px 0 0 10px;
+  font-weight: bold;
+}
+.tab:hover{
+  padding-left:0.4rem;
+  padding-right:0.8rem;
+
+}
+.overview{
+  border-collapse: collapse;
+  border: 1px solid black;
+  
+}
+.overview th{
+  padding:1.5rem;
+  font-size: 1.5rem;
+  width:20%;
+  color:white;
+}
+.overview th:not(:empty){
+  background-color:blue;
+  border: 1px solid black;
+}
+.overview tr{
+  
+  border: 2px solid black;
+}
+.overview td{
+  
+  /* width: 250px; */
+  padding:1rem;
+}
+.overview td:not(:empty){
+  background-color:lightblue;
+  border: 1px solid black;
+}  
+.overview tr:not(:empty):hover{
+  background-color: darkblue;
+
+}
+.overview tr:hover {
+  background-color: darkblue;
+}
+.fa-trash-alt{
+  color: red;
+}
+.shadow{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1;
+  height:100%;
+  width:100%;
+}
+.error{
+  position: absolute;
+  width: 40%;
+  height: 450px;
+  z-index: 2;
+  left:30%;
+  background-color: darkblue;
+  top:20%;
+  text-align: center;
+  vertical-align: middle;
+  color:white;
+  font-size: 1.5rem;
+}
+.error h2{
+  margin-top:30%;
+}
+.error span{
+  color:red;
+  float: right;
+  margin-right: 5px;
+  font-size:3rem;
+}
+.error span:hover{
+  color:white;
+  cursor: pointer;
+}
+/* ----------------------------------------------FORMS------------------------------------------------------------------ */
+
+.form{
+  margin-top: 50px;
+  display:block;
+  height: 80%;
+  width: 80%;
+  margin-right:auto;
+  margin-left:auto;
+  background-color: blue;
+  color:white;
+}
+.form h1{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top:50px;
+}
+.form label{
+  font-size: 1.5rem;
+}
+.form .middle{
+  text-align: center;
+  margin-top: 50px;
+  display: inline-block;
+  width:100%;
+}
+
+.form input[type="text"]{
+  width:90%;
+  margin-right:auto;
+  margin-left:auto;
+}
+.form .left{
+  float:left;
+  margin-left:6%;
+  width: 25%;
+  display: inline-block;
+}
+.left input{
+  width: 100%;
+}
+.form .left::after{
+  clear: both;
+  content:"";
+}
+.clear{
+ clear:both;
+ width:100%;
+ height: auto;
+}
+input[type="submit"]{
+  display: block;
+}
+table td{
+ width: 300px;
+}
